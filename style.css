@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0px 8%;
+}
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 17vh;
+    
+}
+.left_content__header{
+   width: 149px;
+   height: 36.23px;
+  
+}
+.center_content__header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.center_content__header  a{
+    font-family: "Rubik", sans-serif;
+      margin: 0px 15px;
+        height: 19px;
+        top:58.62px;
+        left: 456px;
+        text-decoration: none;
+        color: #4F5665;
+        
+}
+.right_content__header a{
+    font-family: "Rubik", sans-serif;
+    margin: 0px 15px;
+      height: 19px;
+      top:58.62px;
+      left: 456px;
+      text-decoration: none;
+      color:  #0B132A;
+      line-height: 19px;
+   
+}
+#btn_header{
+    border: 1px solid  #F53855;
+    color: #F53855;
+    border-radius:50px ;
+    height: 45px;
+    width: 150px;
+}
+.section_one{
+    margin-top: 3%;
+
+    display: flex;
+    align-content:center;
+    
+}
+.left_section_one h1,h3  {
+margin-top: 30px;
+align-self: start;
+text-align: start;
+
+    
+}
+.left_section_one h1{
+    font-family: "Rubik", sans-serif;
+    font-size: 44px;
+    line-height:50px;
+}
+.left_section_one h3{
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    line-height:30px;
+    color: #4F5665;
+    ;
+}
+#span_left_section{
+    font-size: 57px;
+}
+#section_one_btn{
+    margin-top:40px ;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: #F53855;
+    border-style: none;
+}
+.rigth_section_one{
+    width:  611.24px;
+    height:382.44px ;
+    margin: 20px;
+}
+.section_two{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+}
+#bold_font{
+    font-family: "Rubik", sans-serif ;
+    line-height: 25px;
+    font-size: 27px;
+    /* margin-bottom: 5px; */
+   
+}
+#small_font{
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+.section_three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0px;
+    
+}
+.three_right{
+    margin-top: 40px;
+    align-items: center;
+   
+   
+}
+.three_right > h1 {
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 30px;
+    font-size: 35px;
+    line-height: 50px;
+}
+.tik{
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    gap: 10px;
+   margin:20px 0px;
+    align-items: center;
+    color: #4F5665;
+   
+}
+#text_three_section{
+    line-height:25px ;
+    margin-bottom: 30px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.text_four_section{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#four_text_main{
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    margin-bottom:20px ;
+}
+.plans_four_section{
+    display: flex;
+    justify-content: center;
+    
+}
+#flex_comand{
+    display: flex;
+    margin:10px 0px;
+    gap: 10px;
+    
+}
+.excellence_prices{
+    font-family: "Rubik", sans-serif;
+    height: 280px;
+    margin-top: 40px;
+    line-height: 30px;
+    font-size:14px ;
+}
+.prices_plan{
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+   
+    margin: 20px;
+    padding: 45px;
+    text-align: center;
+}
+.prices_plan:hover{
+    border: 2px solid #F53855;
+}
+#rates{
+    font-family: "Rubik", sans-serif;
+    margin-top: 30px;
+}
+#img_prices{
+    height: 165.37px;
+    width: 144.9px;
+}
+#rates_prices{
+    font-family: "Rubik", sans-serif;
+    line-height: 30px;
+    font-style: 25px;
+    color: #0B132A;
+}
+#gray_prices{
+    color: #4F5665;
+    font-family: "Rubik", sans-serif;
+}
+#prices_btn{
+    margin-top: 30px;
+    height: 45px;
+    width: 177px;
+    border-radius: 50px;
+    border-color: #F53855;
+    color: #F53855;
+}
+#prices_btn:hover{
+    color: #ffffff;
+    background-color: #F53855;
+}
+.text_five{
+    text-align: center;
+    margin-top: 30px;
+}
+#h1_five_section{
+    margin-top: 50px;
+    color: #0B132A;
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+#five_section_p{
+    line-height: 30px;
+    font-size: 16px;
+    color: #4F5665;
+}
+.maps_five{
+    margin-top: 100px;
+    height: 537px;
+}
+.companies{
+    display: flex;
+   
+ 
+    gap: 20px;
+}
+.cards_person{
+    display: flex;
+    margin-top: 40px;
+}
+.person{
+    width: 600px;
+    height: 250px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.person:hover{
+    border: 2px solid #F53855;
+}
+.name_person{
+    display: flex;
+    align-items: center;
+
+}
+.upp_person{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    
+}
+.rate_person{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.rate_person > p{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+#person_name{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0B132A;
+
+    
+}
+#from_person{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.down_person > p{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0B132A;
+}
+#left{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F53855;
+    border-radius:50px ;
+
+}
+#left >img{
+    margin: 20px;
+    
+}
+#right{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ffffff;
+    border-radius:50px ;
+    background-color: #F53855;
+
+}
+#right >img{
+    margin: 20px;
+    
+}
+#subscribe_h1{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #0B132A;
+    font-size: 35px;
+    line-height: 45px;
+    margin-left: 40px;
+}
+#subscribe_p{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: #4F5665;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+.subscribe_btn{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F53855;
+    border: none;
+    color: #ffffff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+footer{
+    background-color: #EEEFF2;
+    padding-top: 200px;
+}
