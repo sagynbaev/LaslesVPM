@@ -331,36 +331,94 @@ text-align: start;
     margin: 20px;
     
 }
-#subscribe_h1{
+.help {
+    border-radius: 10px;
+    background-color: #fff;
+    transform: translateY(50%);
+    z-index: 5;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 58.5px 70px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 25px 82px -3px rgba(239,239,240,1);
+  }
+  
+  .help_title_header {
+    font-family: "Rubik", sans-serif;
+    width: 372px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #0B132A;
+  }
+  
+  .help_title_text {
+    font-family: "Rubik", sans-serif;
+    margin-top: 20px;
+    color: #4F5665;
+  }
+  
+  .help_button {
+    padding: 17.5px 65px;
+    font-weight: 700;
+    color: #fff;
+    background: #F53838;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: -1px 37px 51px -13px rgba(245,56,56,0.4);
+  }
+footer{
+  display: flex;
+  justify-content: space-around;
+   
+    background-color: #EEEFF2;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.LaslesVPN{
     font-family: "Rubik", sans-serif;
     font-weight: 500;
-    color: #0B132A;
-    font-size: 35px;
-    line-height: 45px;
-    margin-left: 40px;
+    font-size: 20px;
 }
-#subscribe_p{
+.info_footer{
+    margin-top: 20px;
     font-family: "Rubik", sans-serif;
     font-weight: 400;
-    color: #4F5665;
     font-size: 16px;
     line-height: 30px;
-    margin-left: 40px;
+    width: 55%;
+    margin-bottom: 20px;
 }
-.subscribe_btn{
-    width: 250px;
-    height: 60px;
-    border-radius: 10px;
-    background-color: #F53855;
-    border: none;
-    color: #ffffff;
+.copyright{
     font-family: "Rubik", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
+    color:#AFB5C0;
     font-size: 16px;
-    margin-top: 30px;
-    margin-right: 50px;
+    line-height: 30px;
 }
-footer{
-    background-color: #EEEFF2;
-    padding-top: 200px;
+.product , .engage , .earn_money{
+    line-height: 35px;
 }
+.bold_fon_footer{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.footer_item{
+    font-family: "Rubik", sans-serif;
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+
+  
